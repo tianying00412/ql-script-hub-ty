@@ -30,6 +30,7 @@ ql-script-hub/
 ├── SFSU_checkin.py        # 顺丰速运签到脚本
 ├── smzdm_checkin.py       # 什么值得买签到脚本 
 └── tieba_checkin.py       # 贴吧签到脚本
+└── glados.py       # glados签到脚本
 ```
 
 ## 🚀 快速开始
@@ -171,8 +172,8 @@ ql-script-hub/
 
 ```bash
 # 通知配置（推荐Telegram）
-TG_BOT_TOKEN=1234567890:AAG9rt-6RDaaX0HBLZQq0laNOh898iFYaRQ
-TG_USER_ID=1434078534
+TG_BOT_TOKEN=*****自己设置电报就行
+TG_USER_ID=****自己设置电报就行
 
 # 随机化配置（可选）
 RANDOM_SIGNIN=true
@@ -187,9 +188,9 @@ MAX_RANDOM_DELAY=3600
 欢迎贡献代码和提出建议！
 
 1. Fork 本仓库
-2. 创建你的特性分支 (`git checkout -b feature/AmazingFeature`)
-3. 提交你的更改 (`git commit -m 'Add some AmazingFeature'`)
-4. 推送到分支 (`git push origin feature/AmazingFeature`)
+2. 创建你的特性分支 
+3. 提交你的更改 
+4. 推送到分支
 5. 打开一个 Pull Request
 
 ## 📄 免责声明
